@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="classes" name="ExampleSuite">
+	<groups>
+        <run>
+            <!--<include name="ButtonTests" />-->
+            <!--<exclude name="HeaderTests" />-->
+        </run>
+    </groups>
+	
+	<test name="SuiteTests" >
+        <classes>
+            <class name="projects.ProjectAct1to9"/>
+            <!--<class name="activities.Activity4Demo2"/> -->
+            <!--<class name="activities.Activity5"/>-->
+        </classes>
+    </test>
+</suite> <!-- Suite -->
